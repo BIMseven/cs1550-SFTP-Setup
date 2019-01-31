@@ -25,13 +25,16 @@ https://www.technology.pitt.edu/help-desk/how-to-documents/pitt-vpn-pulse-secure
       "host": "thoth.cs.pitt.edu",
       "port": 22,
       "username": "[YOUR USERNAME]",
-      "password": "[YOUR PASSWORD]",
-      "rootPath": "/afs/pitt.edu/home/[first character of your username]/[second char of your username]/YOURUSERNAME",
+      //"password": "[YOUR PASSWORD]", optional
+      "interactiveAuth": true, //may switch this out with password
+      "rootPath": "/afs/pitt.edu/home/[first character of your username]/[second char of your username]/YOURUSERNAME", 
     }
   },
 ```
 
 **note: The path depends on your username [I believe]. Since my username is bim7, my path ends with /b/i/bim7**
+ 
+**note: You may wish to substitute the given path for '/u/OSLab/[YOURUSERNAME]/linux-2.6.23.1' if working on project1**
 
 7. You should now be able to run the 'Remote FS: Add Folder to Workspace' command
    from the command pallet (agin, Crtl+Shift+P). A selection of 'pitt-thoth' shows up
