@@ -37,5 +37,12 @@ https://www.technology.pitt.edu/help-desk/how-to-documents/pitt-vpn-pulse-secure
 **note: You may wish to substitute the given path for '/u/OSLab/[YOURUSERNAME]/linux-2.6.23.1' if working on project1**
 
 7. You should now be able to run the 'Remote FS: Add Folder to Workspace' command
-   from the command pallet (agin, Crtl+Shift+P). A selection of 'pitt-thoth' shows up
-   and you should be able to navigate and edit files as though they were local!
+   from the command pallet (agin, Crtl+Shift+P). A selection of 'pitt-thoth' shows
+   up. Click it.
+8. If you have interactiveAuth set to true, you may be prompted to enter your
+   password. Otherwise, you will be able to edit and navigate your remote repository
+   as if it were local!
+
+You may consider installing git for windows. You can set the accompanying bash
+terminal to your integrated terminal in VScode, so you can ssh directly into thoth
+from VScode and execute command-line commands!
