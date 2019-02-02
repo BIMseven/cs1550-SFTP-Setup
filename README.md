@@ -45,4 +45,4 @@ https://www.technology.pitt.edu/help-desk/how-to-documents/pitt-vpn-pulse-secure
 
 You may consider installing git for windows. You can set the accompanying bash
 terminal to your integrated terminal in VScode, so you can ssh directly into thoth
-from VScode and execute command-line commands!
+from VScode and execute CLI commands!
