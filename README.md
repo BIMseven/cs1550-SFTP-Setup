@@ -6,7 +6,7 @@ server to be edited using Microsoft's Visual Studio Code.
 **NOTE: This is a guide made by a student and not Professor Khattab nor a cs1550 TA,
 therefore this guide may be prone to errors.**
 
-This guide assumes that you are connected to pitt's network via some VPN. For
+0. This guide assumes that you are connected to pitt's network via some VPN. For
 instructions on how to do so, look here:
 https://www.technology.pitt.edu/help-desk/how-to-documents/pitt-vpn-pulse-secure-connect-pulse-secure-client
 
@@ -34,12 +34,12 @@ https://www.technology.pitt.edu/help-desk/how-to-documents/pitt-vpn-pulse-secure
 
 **note: The path depends on your username [I believe]. Since my username is bim7, my path ends with /b/i/bim7**
  
-**note: You may wish to substitute the given path for '/u/OSLab/[YOURUSERNAME]/linux-2.6.23.1' if working on project1**
+**note: So far, substituting '/u/OSLab/[YOURUSERNAME]/linux-2.6.23.1' for the root path does not work, due to thoth being incompatible with sftp. Currently working on a solution!**
 
-7. You should now be able to run the 'Remote FS: Add Folder to Workspace' command
+1. You should now be able to run the 'Remote FS: Add Folder to Workspace' command
    from the command pallet (agin, Crtl+Shift+P). A selection of 'pitt-thoth' shows
    up. Click it.
-8. If you have interactiveAuth set to true, you may be prompted to enter your
+2. If you have interactiveAuth set to true, you may be prompted to enter your
    password. Otherwise, you will be able to edit and navigate your remote repository
    as if it were local!
 
