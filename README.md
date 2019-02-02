@@ -32,9 +32,9 @@ https://www.technology.pitt.edu/help-desk/how-to-documents/pitt-vpn-pulse-secure
   },
 ```
 
-**note: The path depends on your username [I believe]. Since my username is bim7, my path ends with /b/i/bim7**
+**NOTE: The path depends on your username (I believe). Since my username is bim7, my path ends with /b/i/bim7**
  
-**note: So far, substituting '/u/OSLab/[YOURUSERNAME]/linux-2.6.23.1' for the root path works inconsistently. This could be due to sftp resrictions on the OSLab path, but I'm not certain. Currently working on a solution but in the meantime you may try a different extension like SSH FS: https://marketplace.visualstudio.com/items?itemName=Kelvin.vscode-sshfs**
+**NOTE: So far, substituting '/u/OSLab/[YOURUSERNAME]/linux-2.6.23.1' for the root path works inconsistently. This could be due to sftp resrictions on the OSLab path, but I'm not certain. Currently working on a solution but in the meantime you may try a different extension like SSH FS: https://marketplace.visualstudio.com/items?itemName=Kelvin.vscode-sshfs**
 
 1. You should now be able to run the 'Remote FS: Add Folder to Workspace' command
    from the command pallet (agin, Crtl+Shift+P). A selection of 'pitt-thoth' shows
@@ -46,3 +46,5 @@ https://www.technology.pitt.edu/help-desk/how-to-documents/pitt-vpn-pulse-secure
 You may consider installing git for windows. You can set the accompanying bash
 terminal to your integrated terminal in VScode, so you can ssh directly into thoth
 from VScode and execute CLI commands!
+
+If you've got any questions, feel free to email me at bim7@pitt.edu or slack me on the Pitt Computer Science Club slack (@Ben Miller).
