@@ -3,7 +3,7 @@
 This is a guide to set up an sftp extension to allow files hosted on Pitt's thoth
 server to be edited using Microsoft's Visual Studio Code.
 
-**NOTE: This is a guide made by a student and not Professor Khattab nor a cs1550 TA,
+**NOTE: This is a guide made by a student and neither Professor Khattab nor a cs1550 TA,
 therefore this guide may be prone to errors.**
 
 0. This guide assumes that you are connected to pitt's network via some VPN. For
